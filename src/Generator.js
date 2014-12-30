@@ -11,5 +11,15 @@ Generator.prototype.generate = function() {
         '的' + Promotion.typeCount + '种类型优惠。' +
         '要求整个系统能够实现' + Strategy.count + '种优惠策略。';
 
-    return storeIntro + storeActivity;
+    var allItems =  "\n```` javascript"
+                    + '\nvar allItems = [\n'
+                    + new Items('version_1').printEachInJson()
+                    + '\n];\n'
+                    + "````";
+
+    var result =    storeIntro
+                    + storeActivity
+                    + allItems;
+
+    return result;
 };
