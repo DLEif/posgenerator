@@ -1,7 +1,9 @@
 var Strategy = (function(){
     var type = {
         STRATEGYA: 'Strategy A',
-        STRATEGYB: 'Strategy B'
+        STRATEGYB: 'Strategy B',
+        STRATEGYC: 'Strategy C',
+        STRATEGYD: 'Strategy D'
     };
 
     return {

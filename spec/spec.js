@@ -20,7 +20,7 @@ describe('Pos ', function(){
 
     describe('generator', function() {
         it('should generate expect text', function() {
-            var strategyCount = 2;
+            var strategyCount = 4;
             var promotionTypeCount = 2;
             var promotionType = '打折、满即减';
 
