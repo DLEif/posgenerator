@@ -25,10 +25,10 @@ describe('Pos ', function(){
             var promotionType = '打折、满即减';
 
             var expectText =
-                '商店里进行购物结算时会使用收银机（POS）系统，' +
+                '\n商店里进行购物结算时会使用收银机（POS）系统，' +
                 '这台收银机会在结算时根据客户的购物车（Cart）中的商品（Item）' +
                 '和商店正在进行的优惠活动（Promotion）进行结算和打印购物清单。' +
-                '商店会进行' + promotionType +
+                '\n商店会进行' + promotionType +
                 '的' + promotionTypeCount + '种类型优惠。' +
                 '要求整个系统能够实现'+ strategyCount + '种优惠策略。';
 
